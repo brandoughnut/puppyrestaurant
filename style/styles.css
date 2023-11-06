@@ -1,33 +1,41 @@
-
-
-
 body {
     background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
 
 .navBarFont {
     font-size: 20px;
-    
+
 }
 
-.cateringTitle{
-    background-color:#FFFFFF ;
+/* catering styling start */
+.cateringTitle {
+    background-color: #FFFFFF;
     color: #5F002B;
     text-align: center;
     font-size: 50px;
-    }
+}
 
-    .caterText{
-        background-color:#FFFFFF ;
-        color: #5F002B;
-    }
-    .caterTextHead{
-        font-size: 25px;
-    }
-    .caterTextBody{
-        font-size: 10px;
-    }
-    .caterEndImage{
-        justify-content: space-between;
-    }
+.caterText {
+    background-color: #FFFFFF;
+    color: #5F002B;
+}
 
+.caterTextHead {
+    font-size: 25px;
+}
+
+.caterTextBody {
+    font-size: 10px;
+}
+
+.caterResizeEnd {
+    width: 100%;
+}
+
+.caterEndImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* catering styling end */
