@@ -17,17 +17,17 @@ body {
     
 }
 
-.headingText {
+.headingTextAboutPg {
     font-family: headingText;
     font-size: 50px;
 }
 
-.headerText {
+.headerTextAboutPg {
     font-size: 30px;
     font-family: headingText;
 }
 
-.paragraphText {
+.paragraphTextAboutPg {
     font-family: paragraphFont;
     font-size: 20px;
     color: #5F002B;
