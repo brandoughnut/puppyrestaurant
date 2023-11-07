@@ -50,7 +50,7 @@ body {
 }
 
 .caterTextHead {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'FugazOne';
 }
 
@@ -71,12 +71,12 @@ body {
 .footLeft{
     text-align: left;
     color: #5F002B;
-    font-family: 'Montauk-Regular';
+    font-family: 'Montauk-Light';
 }
 .footRight{
     text-align: right;
     color: #5F002B;
-    font-family: 'Montauk-Regular';
+    font-family: 'Montauk-Light';
 }
 .footImg{
     width: 15%;
