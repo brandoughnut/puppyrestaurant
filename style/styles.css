@@ -35,5 +35,78 @@ body {
 
 .navBarFont {
     font-size: 20px;
-    
+    font-family: 'FugazOne';
+    color: #5F002B;
+
+
+}
+
+/* catering styling start */
+.cateringTitle {
+    background-color: #FFFFFF;
+    color: #5F002B;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'FugazOne';
+    padding-bottom: 5px;
+
+}
+.horderves{
+    width: 100%;
+    height: auto;
+}
+
+.caterText {
+    background-color: #FFFFFF;
+    color: #5F002B;
+    padding: 21px;
+}
+
+.caterTextHead {
+    font-size: 30px;
+    font-family: 'FugazOne';
+}
+
+.caterTextBody {
+    font-size: 10px;
+    font-family: 'Montauk-Regular';
+}
+
+.caterResizeEnd {
+    width: 100%;
+    height: auto;
+}
+
+.caterEndImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footLeft{
+    text-align: left;
+    color: #5F002B;
+    font-family: 'Montauk-Light';
+}
+.footRight{
+    text-align: right;
+    color: #5F002B;
+    font-family: 'Montauk-Light';
+}
+.footImg{
+    width: 15%;
+}
+
+/* catering styling end */
+
+/* Photo Styling start */
+
+.gridImage{
+    width: 50%;
+    border: 5px solid white;
+    transform: scale(95%);
+    padding: 0%; 
+}
+/* Photo Styling End */
+.test{
+    width: auto;
 }
