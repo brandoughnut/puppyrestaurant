@@ -89,9 +89,7 @@ body {
 .gridImage{
     width: 50%;
     border: 5px solid white;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    
-
-    
+    transform: scale(95%);
+    padding: 0%; 
 }
+/* Photo Styling End */
