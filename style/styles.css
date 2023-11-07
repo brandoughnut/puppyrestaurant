@@ -110,3 +110,46 @@ body {
 .test{
     width: auto;
 }
+
+
+
+font-family: paragraphFont;
+src: url(../fonts/Montauk-Regular/Montauk-Light.otf);
+}
+
+@font-face {
+font-family: headingText;
+src: url(../fonts/Montauk-Regular/Fugaz_One/FugazOne-Regular.ttf);
+}
+
+body {
+background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+
+.navBarFont {
+font-size: 20px;
+
+}
+
+.headingTextAboutPg {
+font-family: headingText;
+font-size: 50px;
+}
+
+.headerTextAboutPg {
+font-size: 30px;
+font-family: headingText;
+}
+
+.paragraphTextAboutPg {
+font-family: paragraphFont;
+font-size: 20px;
+color: #5F002B;
+}
+
+.homePGBG {
+background-image: url(../assets/RestaurantMockupFiles/assets/homeHero.jpg);
+background-size: cover;
+height: 600px;
+background-position: center;
+}
