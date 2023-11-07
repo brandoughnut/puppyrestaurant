@@ -30,4 +30,22 @@ body {
 .paragraphText {
     font-family: paragraphFont;
     font-size: 20px;
+    color: #5F002B;
+}
+
+.footLeft{
+    text-align: left;
+    color: #5F002B;
+}
+
+.footRight{
+    text-align: right;
+    color: #5F002B;
+}
+
+.homePGBG {
+    background-image: url(../assets/RestaurantMockupFiles/assets/homeHero.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
 }
