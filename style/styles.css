@@ -33,13 +33,6 @@ body {
     background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
 
-.navBarFont {
-    font-size: 20px;
-    font-family: 'FugazOne';
-    color: #5F002B;
-
-
-}
 
 /* catering styling start */
 .cateringTitle {
@@ -112,23 +105,18 @@ body {
 }
 
 
-
-font-family: paragraphFont;
-src: url(../fonts/Montauk-Regular/Montauk-Light.otf);
+@font-face {
+    font-family: paragraphFont;
+    src: url(../fonts/Montauk-Regular/Montauk-Light.otf);
 }
 
 @font-face {
-font-family: headingText;
-src: url(../fonts/Montauk-Regular/Fugaz_One/FugazOne-Regular.ttf);
+    font-family: headingText;
+    src: url(../fonts/Montauk-Regular/Fugaz_One/FugazOne-Regular.ttf);
 }
 
 body {
 background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
-}
-
-.navBarFont {
-font-size: 20px;
-
 }
 
 .headingTextAboutPg {
@@ -152,4 +140,12 @@ background-image: url(../assets/RestaurantMockupFiles/assets/homeHero.jpg);
 background-size: cover;
 height: 600px;
 background-position: center;
+}
+
+.navBarFont {
+    font-size: 20px;
+    font-family: 'FugazOne';
+    color: #5F002B;
+
+
 }
