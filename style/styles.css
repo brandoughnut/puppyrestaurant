@@ -39,3 +39,7 @@ body {
     height: 600px;
     background-position: center;
 }
+
+.tester {
+    margin: auto;
+}
