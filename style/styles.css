@@ -83,3 +83,15 @@ body {
 }
 
 /* catering styling end */
+
+/* Photo Styling start */
+
+.gridImage{
+    width: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+    
+}
