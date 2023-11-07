@@ -43,10 +43,15 @@ body {
     padding-bottom: 5px;
 
 }
+.horderves{
+    width: 100%;
+    height: auto;
+}
 
 .caterText {
     background-color: #FFFFFF;
     color: #5F002B;
+    padding: 21px;
 }
 
 .caterTextHead {
@@ -61,6 +66,7 @@ body {
 
 .caterResizeEnd {
     width: 100%;
+    height: auto;
 }
 
 .caterEndImage {
