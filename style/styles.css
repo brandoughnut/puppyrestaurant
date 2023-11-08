@@ -228,13 +228,11 @@ background-position: center;
 
 
 .fon{
-    font-family: fugazOne-regular;
-    src: url('/fonts/Montauk-Regular/FugazOne-Regular.ttf');
+    font-family: 'FugazOne';
     color: #5F002B;
 }
 .txt{
-    font-family: fugazOne-regular;
-    src: url('/fonts/Montauk-Regular/Montauk-Regular.otf');
+    font-family: 'Montauk-Light';
     color: #5F002B;
 }
 

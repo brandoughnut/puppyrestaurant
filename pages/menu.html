@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>menu Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <link rel="stylesheet" href="../style/styles.css">
@@ -11,9 +11,9 @@
    <!-- navbar start -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid mb-3">
-        <a class="navbar-brand" style="margin-left: 7%;" href="../index.html"><img src="../assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt=""></a>
-        <button
-          class="navbar-toggler"
+        <a class="navbar-brand" style="margin-left: 7%;" href="../index.html"><img class="navBarImg" src="../assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt=""></a>
+        <button style="margin-right: 7%;"
+          class="navbar-toggler btnColor"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style=" margin-right: 5%;">
-          <ul class="navbar-nav justify-content-end">
+          <ul class="navbar-nav justify-content-end text-center">
             <div class="container">
             <li class="nav-item">
               <a class="nav-link navBarFont" href="./about.html">About</a>
@@ -52,18 +52,23 @@
   </nav>
   <!-- navbar end -->
   <!-- header -->
-  <h1 class="head"> <strong>our menu</strong> </h1>
-  <br>
+  <div class="container-fluid">
+    <div class="row" style="margin-left: 5%; margin-right: 6%;">
+        <div class="col cateringTitle" style="height: 80px; background-color: white;">
+            Our Menu
+        </div>
+    </div>
+</div>
   <br>
   <!-- end of header -->
-  <div class="container">
+  <div class="container-fluid">
     <!-- <div class="container"> -->
-      <div class="row ">
+      <div class="row g-0 column-gap-1" style="margin-left: 5%; margin-right: 6%;">
 
         <!--sandwitches -->
-        <div class="col-12 col-md d-flex justify-content-center">
-          <div class="card" style="height: auto;">
-            <img src="/assets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top" alt="...">
+        <div class="col-12 col-md-12 col-lg d-flex justify-content-center mb-3">
+          <div class="card" style="height: auto; border: 0; border-radius: 0;" >
+            <img style="border-radius: 0;" src="/assets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top" alt=" sandwhiches">
             <div class="card-body">
               <p class="card-text">
               <h3 class="fon hrs"><strong>sandwitches</strong></h3>
@@ -100,9 +105,9 @@
         </div>
         <!-- end of sandwhiches-->
         <!-- seafood -->
-        <div class="col-12 col-md  d-flex justify-content-center">
-          <div class="card" style="height: auto;">
-            <img src="/assets/RestaurantMockupFiles/assets/menuseafood.jpg" class="card-img-top" alt="...">
+        <div class="col-12 col-md-12 col-lg  d-flex justify-content-center mb-3">
+          <div class="card" style="height: auto; border: 0; border-radius: 0;">
+            <img style="border-radius: 0;" src="/assets/RestaurantMockupFiles/assets/menuseafood.jpg" class="card-img-top" alt="sea food">
             <div class="card-body">
               <p class="card-text">
               <h3 class="fon hrs"><strong>Seafood</strong></h3>
@@ -133,10 +138,10 @@
         </div>
       </div>
       <!-- on the grill-->
-      <div class="row">
-        <div class="col-12 col-md d-flex justify-content-center">
-          <div class="card" style=" height: auto;">
-            <img src="/assets/RestaurantMockupFiles/assets/menumeat.jpg" class="card-img-top" alt="...">
+      <div class="row g-0 column-gap-1" style="margin-left: 5%; margin-right: 6%;">
+        <div class="col-12 col-md-12 col-lg d-flex justify-content-center mb-3" >
+          <div class="card" style=" height: auto; border: 0; border-radius:0;">
+            <img style="border-radius: 0;" src="/assets/RestaurantMockupFiles/assets/menumeat.jpg" class="card-img-top" alt="on the grill">
             <div class="card-body">
               <p class="card-text">
               <h3 class="fon hrs"><strong>On the grill</strong></h3>
@@ -173,9 +178,9 @@
         </div>
         <!-- end of the grill -->
         <!-- dessert -->
-        <div class="col-12 col-md  d-flex justify-content-center">
-          <div class="card" style="height: auto;">
-            <img src="/assets/RestaurantMockupFiles/assets/menudesserts.jpg" class="card-img-top" alt="...">
+        <div class="col-12 col-md-12 col-lg  d-flex justify-content-center mb-3">
+          <div class="card" style="height: auto; border: 0; border-radius: 0;">
+            <img style="border-radius: 0;" src="/assets/RestaurantMockupFiles/assets/menudesserts.jpg" class="card-img-top" alt="desserts">
             <div class="card-body">
               <p class="card-text">
               <h3 class="fon hrs"><strong>Desserts</strong></h3>
@@ -190,8 +195,8 @@
             
               <hr>
               <br>
-              <h2 class="txt hrs d-flex justify-content-between">Tripple Chocolate Brownie <span>$6.99</span></h2>
-              <p class="txtn frs">A tripple chocolate brownie served with vanilla ice cream and walnuts.</p>
+              <h2 class="txt hrs d-flex justify-content-between">Tripple Chocolate Brownie <span class="txt">$6.99</span></h2>
+              <p class="txt frs">A tripple chocolate brownie served with vanilla ice cream and walnuts.</p>
 
               <hr>
               <br>
@@ -208,9 +213,48 @@
           </div>
           <!-- end of dessert -->
 
+
         </div>
       </div>
     </div>
+    <br><br>
+
+      <!-- footer start -->
+  <footer class="d-none d-md-block">
+    <div class="container-fluid">
+      <div class="row g-0 mt-5 " style="margin-left: 5%; margin-right: 6%;">
+        <div class="col d-flex flex-column align-items-start paragraphTextAboutPg">
+          1357 Mutt Street, Rottweiler CA. 12345
+          <p>Phone: 123-456-7890</p>
+        </div>
+        <div class="col d-flex flex-column align-items-end paragraphTextAboutPg">
+          <img src="../assets/RestaurantMockupFiles/assets/CompanyLogo.png" style="width: 100px; height: 31.6px;"
+            alt="A special company logo">
+          Copyright © Muzzles Restaurant
+        </div>
+      </div>
+      <br>
+  </footer>
+  <!-- footer end -->
+
+  <!-- responsive footer start -->
+  <footer class="d-block d-sm-block d-md-none">
+    <div class="container-fluid">
+      <div class="row g-0 mt-5 mb-1" style="margin-left: 5%; margin-right: 6%;">
+        <div class="col d-flex flex-column align-items-center paragraphTextAboutPg text-center">
+          <img src="../assets/RestaurantMockupFiles/assets/CompanyLogo.png" style="width: 100px; height: 31.6px;"
+            alt="A special company logo">
+          1357 Mutt Street, Rottweiler CA. 12345
+          <br>
+          Phone: 123-456-7890
+          <br>
+          Copyright © Muzzles Restaurant
+        </div>
+      </div>
+      <br>
+  </footer>
+
+  <!-- responsive footer end -->
 
 
 
