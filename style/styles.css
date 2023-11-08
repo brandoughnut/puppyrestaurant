@@ -48,12 +48,14 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    padding-bottom: 20px;
 }
 
 .caterText {
     background-color: #FFFFFF;
     color: #5F002B;
     padding: 21px;
+    margin-bottom: 20px;
 }
 
 .caterTextHead {
@@ -75,6 +77,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+}
+.endImagePad{
+    margin-bottom: 20px;
 }
 .footLeft{
     text-align: left;
@@ -96,7 +102,7 @@ body {
 
 .gridImage{
     width: 50%;
-    border: 5px solid white;
+    border: 8px solid white;
     transform: scale(95%);
     padding: 0%; 
 }
