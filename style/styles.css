@@ -210,3 +210,43 @@ background-position: center;
         width: auto;
     }
 }
+.head{
+    text-align: center;
+    border: solid;
+    border-color:#FFFFFF;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: fugazOne-regular;
+    src: url('/fonts/Montauk-Regular/FugazOne-Regular.ttf');
+    color: #5F002B;
+}
+
+.whit{
+    background-color: #FFFFFF;
+}
+
+
+.fon{
+    font-family: fugazOne-regular;
+    src: url('/fonts/Montauk-Regular/FugazOne-Regular.ttf');
+    color: #5F002B;
+}
+.txt{
+    font-family: fugazOne-regular;
+    src: url('/fonts/Montauk-Regular/Montauk-Regular.otf');
+    color: #5F002B;
+}
+
+hr{
+    color: #5F002B;
+}
+
+.frs{
+    font-size: 20px;
+
+}
+
+.hrs{
+    font-size: 30px;
+}
