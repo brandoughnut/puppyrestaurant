@@ -160,3 +160,53 @@ background-position: center;
     color: #5F002B;
 
 }
+
+.navBarImg {
+
+}
+
+@media screen and (max-width: 2560px){
+    .headingTextAboutPg {
+        font-size: 70px;
+    }
+    .paragraphTextAboutPg {
+        font-size: 30px;
+    }
+    .caterTextHead{
+        font-size: 50px;
+    }
+    .caterTextBody{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1921px){
+    .headingTextAboutPg {
+        font-size: 50px;
+    }
+    .paragraphTextAboutPg {
+        font-size: 20px;
+    }
+    .caterTextHead{
+        font-size: 30px;
+    }
+    .caterTextBody{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1075px){
+    .headingTextAboutPg {
+        font-size: 30px;
+    }
+    .paragraphTextAboutPg {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .navBarImg {
+        height: 50px;
+        width: auto;
+    }
+}
