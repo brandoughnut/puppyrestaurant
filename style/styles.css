@@ -24,9 +24,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.side{
-    text-align:end;
-}
 
 .fon{
     font-family: fugazOne-regular;
@@ -41,4 +38,13 @@ body {
 
 hr{
     color: #5F002B;
+}
+
+.frs{
+    font-size: 20px;
+
+}
+
+.hrs{
+    font-size: 30px;
 }
