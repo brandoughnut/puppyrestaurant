@@ -54,7 +54,7 @@ body {
 .caterText {
     background-color: #FFFFFF;
     color: #5F002B;
-    padding: 21px;
+    padding: 5px;
     margin-bottom: 20px;
 }
 
@@ -102,7 +102,7 @@ body {
 
 .gridImage{
     width: 50%;
-    border: 8px solid white;
+    border: 11px solid white;
     transform: scale(95%);
     padding: 0%; 
 }
@@ -247,4 +247,18 @@ hr{
 
 .hrs{
     font-size: 30px;
+}
+@media screen and (max-width:768px){
+    .horderves{
+        display: none;
+    }
+    .charcuterie{
+        display: none;
+    }
+    .sliders{
+        display: none;
+    }
+    .appetizer{
+        display: none;
+    }
 }
