@@ -209,6 +209,9 @@ background-position: center;
         height: 50px;
         width: auto;
     }
+    .homePGBG {
+        height: 300px;
+    }
 }
 .head{
     text-align: center;
