@@ -205,6 +205,12 @@ background-position: center;
     }
 }
 
+@media screen and (max-width: 769px){
+    .homePGBG {
+        height: 350px;
+    }
+}
+
 @media screen and (max-width:640px){
     .navBarImg {
         height: 50px;
